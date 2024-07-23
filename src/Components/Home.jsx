@@ -37,8 +37,8 @@ function Home() {
       })
 
       return <>
-            <div className="container" id="ani">
-                  <div className="title">
+            <div className="outerBox" id="ani">
+                  <div className="title1">
                         <h1>TITLE OF <span>PORTFOLIO</span></h1>
                   </div>
                   <div className="para">

@@ -7,6 +7,7 @@
     position: relative;
     height: 100vh; /* 100% of the viewport height */ /* Prevent any overflow */
     color: white;
+    margin-bottom: 100px;
 }
 
 

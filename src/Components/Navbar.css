@@ -13,6 +13,7 @@
     height: 80px;
     display: flex;
     align-items: center;
+    z-index: 10;
   }
   nav ul{
     width: 100%;
@@ -78,7 +79,7 @@
 
   .contactUsBtn{
     background: linear-gradient(94.33deg, #4050F2 0%, #451DB8 100%);
-    width: 100.88px;
+    width: 150.88px;
     height: 50.8px;  
     border-radius: 63px;
     display: flex;

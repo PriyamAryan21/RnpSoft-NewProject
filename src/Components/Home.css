@@ -1,23 +1,32 @@
-.container {
+*{
+      margin: 0;
+      padding: 0;
+}
+.outerBox {
+      padding-top: 40px;
       background: conic-gradient(from 0deg at 50% 50%, #760089 0deg, #000000 360deg);
       height: 100%;
       color: white;
+      margin-top: -25px;
 
-      .title {
+      .title1 {
             margin: 25px 67px;
-
+            color: white;
+            
             h1 {
+                  color: white;
                   display: flex;
                   flex-direction: column;
                   font-size: 6rem;
             }
       }
-
+      
       .para {
+            color: white;
             margin: 25px 67px;
             text-align: justify;
             max-width: 668px;
-            font-size: 1.6rem;
+            font-size: 1.3rem;
       }
       button {
             margin: 25px 67px;
@@ -41,9 +50,9 @@
         
 }
 @media(max-width: 500px){
-      .container{
+      .outerBox{
 
-            .title {
+            .title1 {
                   margin: 0;
                   text-align: center;
 
@@ -54,7 +63,7 @@
       }
 }
 @media(max-width: 800px){
-      .container{
+      .outerBox{
 
             .para{
                   font-size: 1.1rem;
@@ -80,7 +89,7 @@
                   }
             }
 
-            .title {
+            .title1 {
                   h1 {
                         font-size: 4rem;
                   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactForm.css';
 import emailjs from '@emailjs/browser';
-import { useRef } from 'preact/hooks';
+import { useRef } from 'react';
 import phone from './Images/phone.png'
 import envelope from './Images/envelope.png'
 import map from './Images/map.png'

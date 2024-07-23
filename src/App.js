@@ -5,20 +5,23 @@ import Home from './Components/Home'
 import FAQ from './Components/Faq'
 import Popular from './Components/Popularques'
 import Meet from "./Components/meet";
-// import ContactForm from './Components/ContactForm';
 import Reviews from './Components/Reviews';
+import ContactForm from './Components/ContactForm';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <Services/>
-    <FAQ/>
-    <Popular/>
-    <Reviews/>
-    <Meet/>
-    {/* <ContactForm/> */}
+      <div>
+        <Navbar/>
+        <Home />
+        <Services />
+        <FAQ />
+        <Popular />
+        <Reviews />
+        <Meet />
+        <ContactForm />
+
+      </div>
     </>
   );
 }
