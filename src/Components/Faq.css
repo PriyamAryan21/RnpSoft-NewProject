@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 40px 0;
+  background: #730186;
+}
+
+.containers {
+  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 3vw;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.wrappercont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.infocontainer {
+  flex: 1 1 45%;
+  margin-top: 5%; /* Adjust this value to bring the text and cards lower */
+}
+
+.infolines {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.infocards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 2%; /* Adjust this value to bring the cards lower */
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 120px;
+}
+
+.card-img {
+  width: 35px;
+  height: 35px;
+  img{
+    float: none;
+    margin: 0px;
+  }
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  font-family: 'DM Sans';
+  font-size: 1vw;
+  font-weight: 500;
+  color: #5C5F6E;
+}
+
+.imgcontainer {
+  flex: 1 1 45%;
+  text-align: center;
+  margin-top: -1%; /* Adjust this value to bring the image lower */
+}
+
+.imgcontainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 5vw;
+  }
+
+  .infolines {
+    font-size: 2vw;
+  }
+
+  .card {
+    max-width: 100px;
+  }
+
+  .card-text {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrappercont {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .infocontainer, .imgcontainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .card {
+    max-width: 80px;
+  }
+
+  .card-text {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 7vw;
+  }
+
+  .infolines {
+    font-size: 3vw;
+  }
+
+  .card {
+    max-width: 60px;
+  }
+
+  .card-text {
+    font-size: 3vw;
+  }
+
+  .wrappercont {
+    padding: 0 10%;
+  }
+
+  .infocards {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .heading {
+    font-size: 9vw;
+  }
+
+  .infolines {
+    font-size: 4vw;
+  }
+
+  .card {
+    max-width: 50px;
+  }
+
+  .card-text {
+    font-size: 4vw;
+  }
+}

@@ -1,0 +1,53 @@
+.popularp1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 3% 0%;
+  }
+  
+  .cards-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card1 {
+    display: flex;
+    overflow: hidden;
+    flex-basis: calc(28% - 40px);
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: start; /* Aligns items vertically */
+    margin: 10px; /* Adds margin around cards */
+  }
+  
+  .image-container1 img {
+    width: 25px; /* Smaller width */
+    height: 25px; /* Smaller height */
+    margin-right: 10px; /* Adds some space between the image and the text */
+  }
+  
+  .text-container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .title1{
+    font-weight: 700;
+    margin-bottom: 3%;
+  }
+  .description1{
+    width: 70%;
+  }
+  @media (max-width: 768px) {
+    .cards-container1 {
+      flex-direction: column;
+      align-items: center; /* Centers the cards in the container */
+      justify-content: center;
+    }
+  
+    .card1 {
+      flex-basis: auto; /* Resets the basis to auto so it takes the container width */
+      width: 90%; /* Adjusts the card width to fit smaller screens */
+    }
+  }

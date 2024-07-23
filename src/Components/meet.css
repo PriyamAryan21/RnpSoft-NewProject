@@ -1,0 +1,99 @@
+.homepage {
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh);
+  background-color: white;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  text-align: center;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+.Fts {
+  font-family: "Inter", sans-serif;
+  margin-top: 70px;
+  font-weight: 800;
+  font-size: 64px;
+  font-style: bold;
+  color: black;
+}
+
+.para {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 20px;
+  color: black;
+}
+.boxes {
+  /* background-color: purple; */
+  /* max-height: 100px; */
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 0px 0px 0px;
+  margin-top: 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+  gap: 20px;
+}
+.info {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  height: 92px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.box p {
+  margin-top: 6px;
+  margin-left: 18px;
+  margin-bottom: 5px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #8f19a2;
+}
+
+.box h1 {
+  margin-left: 18px;
+  margin-top: 5px;
+  font-family: "Manrope", sans-serif;
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 500;
+}
+img {
+  float: right;
+  margin-top: 24px;
+  margin-right: 19px;
+}
+.box {
+  height: 394px;
+  width: 200px;
+  min-width: 371px;
+  border-radius: 50px;
+  text-align: left;
+  align-content: end;
+  margin-bottom: 50px;
+  border: 1px solid #2d2c2c80;
+  background: linear-gradient(#ffffff, #8f19a2);
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.box:hover{
+  border: 3px solid #8f19a2;
+}
+
+.work {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-top: 30px;
+  font-style: normal;
+}
